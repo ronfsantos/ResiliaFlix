@@ -1,0 +1,36 @@
+body{
+    background-color: #0c000e;
+}
+.cabecalho{
+    width: 100%;
+    position: absolute;
+    background-color: #2D0531;
+}
+.logo{
+    position: absolute;
+    float: left;
+    height: 50px;
+    bottom: 10px;
+    left: 10px;
+}
+.resiliaflix{
+    color: #BB0BAA;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    left: 70px
+}
+.inicio{
+    object-fit: cover;
+    object position: 0 80%;
+    height: 400px;
+    width: 100%;
+}
+.legenda{
+    position: absolute;
+    padding-left: 850px;
+    top: 200px;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
