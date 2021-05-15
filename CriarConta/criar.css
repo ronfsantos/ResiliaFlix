@@ -1,0 +1,29 @@
+body{
+    background-color: #0E050F;
+}
+.resiliaflix{
+    position: absolute;
+    color: #740D6A;
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    margin-left: 150px;
+}
+.criar{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 35px;
+}
+.pag{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+}
+.form{
+    background-color: #B1B1B1;
+    justify-content: center;
+    text-align: center;
+
+}
