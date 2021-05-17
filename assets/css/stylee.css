@@ -1,0 +1,18 @@
+body {
+    background-color: #2D0531;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.area {
+    background-color: grey;
+    width: 100%;
+    max-width: 500px
+}
+
+.botao {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

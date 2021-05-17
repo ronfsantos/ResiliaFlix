@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/stylee.css" />
+    <title>RESILIAFLIX</title>
+
+</head>
+
+<body>
+    <div class="area">
+        <form class="form-inline">
+            <h1>CRIAR UMA CONTA</h1>
+            <div class="form-group">
+                <div class="col-7">
+                    <input type="text" id="nomeid" placeholder="NOME" required="required" name="nome" />
+                    <label for="nome"></label>
+
+                    <div class="col">
+
+                        <input type="text" id="rg" placeholder="RG" name="rg" />
+                        <label for="rg"></label>
+                    </div>
+                    <div class="col">
+                        <input type="email" id="emailid" placeholder="Email" name="email" />
+                        <label for="email"></label>
+
+                    </div>
+                </div>
+        </form>
+
+
+        <form method="get" action=".">
+            <label>
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" placeholder="CEP"
+               onblur="pesquisacep(this.value);" /></label><br />
+            <label>
+        <input name="rua" type="text" id="rua" size="60" placeholder="Endereço" /></label>
+            <label>
+        <input name="bairro" type="text" id="bairro" size="40" placeholder="Bairro" /></label><br />
+            <label>
+        <input name="cidade" type="text" id="cidade" size="40" placeholder="Cidade" /></label><br />
+            <label>
+        <input name="uf" type="text" id="uf" size="2" placeholder="UF" /></label><br />
+
+            <label class="botao">
+                <button type="button" class="btn btn-lg btn-success">CRIAR</button>
+                <button type="button" class="btn btn-lg btn-danger">CANCELAR</button>
+
+            </label>
+
+        </form>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="./assets/js/resiliaflix.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
