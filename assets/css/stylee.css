@@ -7,12 +7,55 @@ body {
 }
 
 .area {
-    background-color: grey;
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 215px;
+    top: 178px;
+    background-color: #c4c4c4;
+    border-radius: 15px;
+}
+
+.campo {
+    background: none;
+    border-color: purple;
+    position: relative;
     width: 100%;
-    max-width: 500px
+    height: 35px;
+    left: 2px;
+    top: 20px;
+    border-radius: 5px;
 }
 
 .botao {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.email {
+    background: none;
+    border-color: purple;
+    position: relative;
+    width: 465px;
+    height: 35px;
+    left: 2px;
+    top: 80x;
+    border-radius: 5px;
+    place-content: purple;
+}
+
+::-webkit-input-placeholder {
+    color: purple;
+}
+
+.rg {
+    background: none;
+    border-color: purple;
+    position: relative;
+    width: 190px;
+    height: 35px;
+    left: 470px;
+    top: 0px;
+    border-radius: 5px;
+    place-content: purple;
 }
